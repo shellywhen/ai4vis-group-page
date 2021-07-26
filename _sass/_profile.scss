@@ -1,0 +1,45 @@
+.profile-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-card {
+    margin: 5px 1.5vw;
+    text-align: center;
+    div {
+        font-size: 1.1rem;
+        color: $dark-gray;
+    }
+    a:hover {
+        color: $highlight;
+    }
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    min-width: 20px;
+    min-height: 20px;
+    border-radius: 50%; /*don't forget prefixes*/
+    background-position: center center;
+    /* as mentioned by Vad: */
+    background-size: cover;
+    border-width: 0.1rem;
+    border-color: white;
+    border-style: solid;
+  }
+
+.profile-collaborator {
+    img {
+        max-height: 90px;
+        width: auto;
+        min-width: 40px;
+    }
+    background-position: center center;
+    background-size: cover;
+    width: fit-content;
+    height: fit-content;
+}

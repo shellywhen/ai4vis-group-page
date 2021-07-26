@@ -1,0 +1,37 @@
+
+.extra-links {
+    a {
+        margin-right: 1vw;
+        font-size: 1rem;
+    }
+    
+}
+.publication {
+    margin-bottom: 5vh;
+    display: flex;
+    .thumbnail {
+        img {
+            width: 15vw;
+            min-width: 15vw;
+            border-radius: 5px;
+            background-color: $extreme-light-gray;
+        }
+        margin-right: 2vw;
+    }
+    .publication-content {
+        display: block;
+        h3 {
+            font-size: 1.2rem;
+        }
+        .authors {
+            line-height: 1.1;
+            margin-bottom: 5px;
+            a {
+                color: $dark-gray;
+                &:hover {
+                    color: $highlight;
+                }
+            }
+        }
+    }
+}

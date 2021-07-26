@@ -1,0 +1,111 @@
+{% capture anchor %}{% if pub.id %}{{ pub.id }}{% else %}{{ (pub.title | slugify) }}{% endif %}{% endcapture %}
+
+<div class="publication" data-pub='{{ pub | jsonify | escape }}'>
+<div class="thumbnail">
+<img src="{{ pub.image  }}"/>
+</div>
+<div class="publication-content">
+    <h3 id="{{ anchor }}">{% for award in pub.awards %}<i class="fas fa-{% if award == " Best Paper Award " %}trophy{% else %}award{% endif %} award-icon" title="{{ award }}"></i> {% endfor %}{{ pub.title }}</h3>
+    <div class="authors">{% for author in pub.authors %}{%- include person.html person=author -%}{%-unless forloop.last-%}, {% endunless %}{% endfor %}</div>
+    {% if pub.venue %}
+    <div class="venue">
+        {% if pub.venue_url %}
+        <a target="_blank" href="{{ pub.venue_url }}">
+      {% endif %}
+      {% assign venue = site.data.venue[pub.venue] %}
+      <a class="tip">
+          {{ pub.venue }}
+          <span>
+              <!-- {% if venue.prefix %}
+              {{ venue.prefix }}
+              {% endif %} -->
+              {{ venue.full }} 
+              <!-- ({{venue.abbr}}) -->
+          </span>
+        </a><!--
+      {% if pub.venue_location %}
+        --> in {{ pub.venue_location }}<!--
+      {% endif %}
+      -->{% if pub.venue_url %}</a>{% endif %} {{ pub.year }}. {% if pub.type[0] == "Poster" %}<span class="poster_note">({{pub.type[0]}})</span>{%- endif -%} {% if pub.type[0] == "Notes" %}<span class="poster_note">({{pub.type[0]}})</span>{%-
+        endif -%} {% if pub.note %}<span class="ac_note"> (<i>{{pub.note}}</i>)</span>{%- endif -%}
+    </div>
+    {% endif %} {% if pub.description %}
+    <p class="description">
+        {{ pub.description | markdownify | remove: '
+        <p>' | remove: '</p>' }}
+    </p>
+    {% endif %} {% if pub.tweet %}
+    <a target="_blank" href="https://twitter.com/intent/tweet?text={{ pub.tweet }}&url={{ site.production_url }}/publications/%23{{ anchor }}&via=LiwenhanXie&related=LiwenhanXie" class="tweet">
+        <i class="fab fa-twitter"></i> <span class="message">{{ pub.tweet }}</span>
+    </a>
+    {% endif %} {% if pub.awards %}
+    <div class="awards">
+        {% for award in pub.awards %}{{ award }}{% unless forloop.last %}, {% endunless %} {% endfor %}
+    </div>
+    {% endif %} {% if pub.link or pub.pdf or pub.video or pub.blog or pub.slides or pub.doi or pub.arxiv %}
+    <div class="extra-links">
+        {% if pub.doi %}
+        <a target="_blank" href="{{ pub.doi }}">
+            <i class="ai ai-doi ai-1x" aria-hidden="true"></i> DOI
+            <!-- <i class="fas fa-book" aria-hidden="true"></i> DOI -->
+        </a>
+        {% endif %}  {% if pub.arxiv %}
+        <a target="_blank" href="{{ pub.arxiv }}">
+            <i class="ai ai-arxiv ai-1x" aria-hidden="true"></i> arXiv
+        </a>
+        {% endif %} {% if pub.pdf %}
+        <a href="{{ pub.pdf }}" target="_blank">
+            <i class="ai ai-open-access ai-1x" aria-hidden="true"></i> PDF
+            <!-- <i class="far fa-file-pdf" aria-hidden="true"></i> PDF -->
+        </a>
+        {% endif %} {% if pub.link %}
+        <a target="_blank" href="{{ pub.link }}">
+            <i class="ai ai-open-materials ai-1x" aria-hidden="true"></i> Website
+            <!-- <i class="fas fa-link" aria-hidden="true"></i> Project -->
+        </a>
+        {% endif %} {% if pub.blog %}
+        <a target="_blank" href="{{ pub.blog }}">
+            <i class="fas fa-newspaper" aria-hidden="true"></i> Article
+        </a>
+        {% endif %} {% if pub.video %}
+        <a target="_blank" href="{{ pub.video }}">
+            <i class="fas fa-film" aria-hidden="true"></i> Video
+        </a>
+        {% endif %} {% if pub.recording %}
+        <a target="_blank" href="{{ pub.recording }}">
+            <i class="fas fa-video" aria-hidden="true"></i> Talk
+        </a>
+        {% endif %} {% if pub.slides %}
+        <a target="_blank" href="{{ pub.slides }}"> 
+            <!-- <i class="fas fa-window-maximize" aria-hidden="true"></i> Slides -->
+            <i class="ai ai-open-data ai"></i> Slides
+        </a>
+        {% endif %} 
+        <!-- {% if pub.arxiv %}
+        <a target="_blank" href="https://arxiv2bibtex.org/?q={{ pub.arxiv | cgi_escape }}">
+            <i class="fas fa-book" aria-hidden="true"></i> Bibtex
+        </a>
+        {% endif %}  -->
+        {% if pub.short_doi %}
+        <a target="_blank" href="http://doi.org/{{ pub.short_doi }}">
+            <i class="fas fa-anchor" aria-hidden="true"></i> DOI: {{ pub.short_doi }}
+        </a>
+        {% endif %} {% if pub.osf %}
+        <a target="_blank" href="https://osf.io/{{ pub.osf }}">
+            <i class="fas fa-archive" aria-hidden="true"></i> OSF: {{ pub.osf }}
+        </a>
+        {% endif %} {% if pub.demo %}
+        <a target="_blank" href="http://doi.org/{{ pub.demo }}">
+            <i class="fas fa-desktop" aria-hidden="true"></i> Demo: {{ pub.demo }}
+        </a>
+        {% endif %} {% if pub.pptx %}
+        <a href="{{ pub.pptx }}" target="_blank"><i class="fas fa-photo-video"></i> Slides (Animated)</a> {% endif %}
+        {% if pub.code %}
+        <a target="_blank" href="{{ pub.code }}">
+            <i class="ai ai-open-materials ai-1x" aria-hidden="true"></i> Code
+        </a>
+        {% endif %}
+    </div>
+    {% endif %}
+</div>
+</div>

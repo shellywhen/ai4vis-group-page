@@ -1,5 +1,73 @@
 ---
 layout: home
-title: My website
-subtitle: This is where I will tell my friends way too much about me
+title: AI4VIS
+subtitle: Empower data visualization with advanced AI techniques
 ---
+<div class="spacefill"></div>
+<div class="wrapper">
+    <div class="flex-double-row">
+    <div id="introduction">
+        <h2 class="major-title"><span>Introduction</span></h2>
+        <p>
+            Similar to other data formats such as text and images, visualizations are increasingly created, stored, shared, and (re-)used with AI techniques.
+            In vision of formalizing visualizations as an emerging data format, we apply addvanced AI techniques to visualization data (AI4VIS).
+            And we have explored a diverse topic of chart configuration, computer-aided inforgraphics, and graph layout.
+           
+        </p>
+    </div>
+        <div class="banner-wrapper">
+            <img class="banner" src="./assets/img/overview.png"/>
+        </div>
+    </div>
+    
+</div>
+<div id="news" class="wrapper">
+    <h2 class="major-title"><span>News</span></h2>
+    <div></div>
+
+</div>
+
+<div id="publication" class="wrapper">
+    <h2 class="major-title"><span>Publications</span></h2>
+
+
+
+{% assign pubyears = site.data.publication | group_by:"year" %}
+    {% for year in pubyears %}
+        {%-assign yeartitle = year.name | floor-%}
+            <h3 class="year" href="#y{{ year.name }}"><span> {{ yeartitle }} </span> </h3>
+        {% for pub in year.items %}
+        {% include publication.html pub=pub %}
+        {% endfor %}
+    {% endfor %}
+</div>
+
+<div id="team">
+
+    <div id="team-current" class="wrapper">
+        <h2>Current Members</h2>
+      {% include profile.html term="team" class="profile-image" %}
+      <h2>Alumini</h2>
+      {% include profile.html term="alumini" class="profile-image" %}
+    </div>
+
+ 
+    <div class="collaborators wrapper">
+        <h2 class="major-title"> <span>Collaborators</span></h2>
+        <div class="profile-container">
+        {% for people in site.data.team %}
+        {% if people.role == "collaborator" %}
+            <div class="profile-card">
+            <!-- <a target="_blank" href="{{ people.url }}"> -->
+            <div class="profile-collaborator"><img src="{{ people.image }}"/></div>
+            <!-- <div>{{ people.name }}</div> -->
+            <!-- </a> -->
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+    </div>
+
+</div>
+
+

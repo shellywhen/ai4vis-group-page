@@ -2,28 +2,29 @@
   <div class="container-md beautiful-jekyll-footer">
     <div class="row">
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
-      {% include social-networks-links.html %}
-      {% if page.footer-extra %}
+      <!-- {% include social-networks-links.html %} -->
+      <!-- {% if page.footer-extra %}
         <div class="footer-custom-content">
           {% for file in page.footer-extra %}
             {% include {{ file }} %}
           {% endfor %}
         </div>
-      {% endif %}
+      {% endif %} -->
       <p class="copyright text-muted">
-      {% if site.author %}
+      <!-- {% if site.author %}
         {{ site.author }}
         &nbsp;&bull;&nbsp;
-      {% endif %}
-      {{ site.time | date: '%Y' }}
-
+      {% endif %} -->
       {% if site.url-pretty %}
-        &nbsp;&bull;&nbsp;
-        <span class="author-site">
-          <a href="{% if site.url-canonical %}{{ site.url-canonical }}{% else %}{{ '' | absolute_url }}{% endif %}">{{ site.url-pretty }}</a>
-        </span>
-      {% endif %}
+      <span class="author-site">
+        <a href="{% if site.url-canonical %}{{ site.url-canonical }}{% else %}{{ '' | absolute_url }}{% endif %}">{{ site.url-pretty }}</a>
+      </span>
+    {% endif %}
+    &nbsp;&bull;&nbsp;
 
+      Last modified: {{ site.time | date: '%B %Y' }}
+
+    
       {% if site.matomo %}
         {% if site.matomo.opt-out %}
           &nbsp;&bull;&nbsp;
@@ -31,10 +32,24 @@
         {% endif %}
       {% endif%}
       </p>
+  
+      {% if site.created_by %}
+      <p class="theme-by text-muted">
+        Created by {{ site.created_by }}
+      </p>
+      {% endif %}
+
+      {% if site.maintained_by %}
+      <p class="theme-by text-muted">
+        Maintained by {{ site.maintained_by }}
+      </p>
+      {% endif %}
+
       {% unless site.remove-ads %}<p class="theme-by text-muted">
         Powered by
         <a href="https://beautifuljekyll.com">Beautiful Jekyll</a>
       </p>{% endunless %}
+      
       </div>
     </div>
   </div>

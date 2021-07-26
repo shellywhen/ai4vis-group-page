@@ -1,0 +1,18 @@
+---
+---
+
+@charset "utf-8";
+$dark-gray: #404040;
+$extreme-light-gray: #E9ECF0;
+$highlight: #0085A1;
+$gray: #c0bebe;
+.navbar-custom {
+    // background-color: black;
+
+}
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import 
+    "layout",
+    "profile",
+    "publication";

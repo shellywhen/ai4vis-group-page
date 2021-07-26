@@ -1,0 +1,101 @@
+- name: Aoyu Wu
+  url: http://awuac.student.ust.hk/
+  image: http://awuac.student.ust.hk/img/gallery04.65072512.jpg
+  role: team
+
+- name: Linping Yuan
+  url: https://yuanlinping.github.io/
+  image: http://vis.cse.ust.hk/vislab_homepage/img/people/linping.jpg
+  role: team
+  
+- name: Haotian Li
+  url: https://haotian-li.com/
+  image: https://haotian-li.com/photo_2.jpg
+  role: team
+  
+- name: Wai Tong
+  url: http://home.cse.ust.hk/~wtong/
+  image: http://home.cse.ust.hk/~wtong/img/IMG_20180808_124343.jpg
+  role: team
+
+- name: Xinhuan Shu
+  url: http://www.cse.ust.hk/~xshuaa/
+  image: http://www.cse.ust.hk/~xshuaa/img/student.jpeg
+  role: team
+
+- name: Yuzhe Jiang
+  url: http://yjiangbu.student.ust.hk/
+  image: http://vis.cse.ust.hk/vislab_homepage/img/people/yuzhe.jpg
+  role: team
+
+- name: Liwenhan Xie
+  url: https://shellywhen.github.io/
+  image: http://vis.cse.ust.hk/vislab_homepage/img/people/wenhan_2.jpg
+  role: team
+
+- name: Zhutian Chen
+  url: https://chenzhutian.org/
+  image: ./assets/img/person/alumini/zhutian-chen.png
+  role: alumini
+  institute: UCSD 
+  title: postdoc
+
+- name: Qianwen Wang
+  url: https://qianwen.info/
+  image: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=jtSR4hoAAAAJ&citpid=1
+  role: alumini
+  institute: Harward
+  title: postdoc
+
+- name: Yun Wang
+  url: https://www.microsoft.com/en-us/research/people/wangyun/
+  image: https://www.microsoft.com/en-us/research/uploads/prod/2019/04/unnamed-file.jpg
+  role: alumini
+  institute: MSRA
+  title: Senior Researcher
+
+- name: Yong Wang
+  url: http://www.yong-wang.org/
+  image: http://www.yong-wang.org/images/wangyong.png
+  role: alumini
+  institute: SMU
+  title: Assistant Professor
+
+- name: Weiwei Cui
+  url: https://www.microsoft.com/en-us/research/people/weiweicu/
+  role: alumini
+  image: https://www.microsoft.com/en-us/research/wp-content/uploads/2016/03/weiweicu-e1459374782237.jpg
+  institute: MSRA
+  title: Senior Researcher
+  
+- name: Huamin Qu
+  url: http://huamin.org
+  role: professor
+  
+- name: MSRA
+  image: ./assets/img/person/collaborator/logo_MSRA.png
+  role: collaborator
+
+- name: MSR 
+  image: ./assets/img/person/collaborator/msr.webp
+  role: collaborator
+
+- name: INRIA 
+  image: ./assets/img/person/collaborator/inria.png
+  role: collaborator
+
+- name: Apple
+  image: ./assets/img/person/collaborator/apple.png
+  role: collaborator
+
+- name: CMU
+  image: ./assets/img/person/collaborator/cmu-red.png
+  role: collaborator
+
+- name: Waterloo
+  image: ./assets/img/person/collaborator/waterloo.png
+  role: collaborator
+
+- name: CUHK
+  image: ./assets/img/person/collaborator/cuhk.png
+  role: collaborator
