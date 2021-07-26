@@ -13,12 +13,18 @@
     color:white;
   }
 
-  .wrapper {
-      padding: 3vh 10vw;
-      &:nth-child(odd) {
-        background-color: $extreme-light-gray;
-      }
-  }
+.navbar-custom,
+.navbar-custom.top-nav-short,
+.navbar-custom.top-nav-short-permanent {
+  padding: 0 10vw;
+}
+
+.wrapper {
+    padding: 3vh 10vw;
+    &:nth-child(odd) {
+    background-color: $extreme-light-gray;
+    }
+}
 
 .banner-wrapper {
     vertical-align: middle;
@@ -37,7 +43,7 @@
 }
 
 .spacefill {
-    height: 15vh;
+    height: 8vw;
 }
 
 .major-title {
@@ -74,4 +80,10 @@
     .wrapper {
         padding: 3vh 3vw;
     }
+    .navbar-custom,
+.navbar-custom.top-nav-short,
+.navbar-custom.top-nav-short-permanent {
+  padding: 0 3vw;
+}
+
 }
