@@ -7,7 +7,7 @@ subtitle: Empower data visualization with advanced AI techniques
 <div class="wrapper">
     <div class="flex-double-row">
     <div id="introduction">
-        <h2 class="major-title"><span>Introduction</span></h2>
+        <h2 class="major-title"><span>About Us</span></h2>
         <p>
             Similar to other data formats such as text and images, visualizations are increasingly created, stored, shared, and (re-)used with AI techniques.
             In vision of formalizing visualizations as an emerging data format, we apply addvanced AI techniques to visualization data (AI4VIS).
@@ -23,7 +23,11 @@ subtitle: Empower data visualization with advanced AI techniques
 </div>
 <div id="news" class="wrapper">
     <h2 class="major-title"><span>News</span></h2>
-    <div></div>
+    <div>
+        {% for news in site.data.news limit:8 %}
+        {% include news.html news=news %}
+        {% endfor %}
+    </div>
 
 </div>
 

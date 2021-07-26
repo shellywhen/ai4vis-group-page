@@ -71,13 +71,13 @@
 - name: Huamin Qu
   url: http://huamin.org
   role: professor
-  
-- name: MSRA
-  image: ./assets/img/person/collaborator/logo_MSRA.png
-  role: collaborator
 
 - name: MSR 
-  image: ./assets/img/person/collaborator/msr.webp
+  image: ./assets/img/person/collaborator/msr.png
+  role: collaborator
+
+- name: MSRA
+  image: ./assets/img/person/collaborator/logo_MSRA.png
   role: collaborator
 
 - name: INRIA 
@@ -93,7 +93,7 @@
   role: collaborator
 
 - name: Waterloo
-  image: ./assets/img/person/collaborator/waterloo.png
+  image: ./assets/img/person/collaborator/waterloo.jpg
   role: collaborator
 
 - name: CUHK

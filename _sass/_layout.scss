@@ -16,7 +16,8 @@
 .navbar-custom,
 .navbar-custom.top-nav-short,
 .navbar-custom.top-nav-short-permanent {
-  padding: 0 10vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
 }
 
 .wrapper {
@@ -28,7 +29,6 @@
 
 .banner-wrapper {
     vertical-align: middle;
-    display: block;
     height: 100%;
     position: relative;
     
@@ -50,8 +50,21 @@
     width: 100%; 
     text-align: left; 
     line-height: 0.1em;
-    margin: 10px 0 40px;
+    margin: 20px 0 40px;
 }
+
+.news-item {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    font-size: 0.9em;
+    .news-content {
+      flex: 1;
+    }
+    .time-span {
+      padding-left: 5px;
+    }
+  }
 
 .year {
     width: 100%; 
@@ -83,7 +96,8 @@
     .navbar-custom,
 .navbar-custom.top-nav-short,
 .navbar-custom.top-nav-short-permanent {
-  padding: 0 3vw;
+  padding-left: 3vw;
+  padding-right: 3vw;
 }
 
 }
