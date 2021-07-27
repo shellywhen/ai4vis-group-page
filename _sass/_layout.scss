@@ -21,10 +21,7 @@
 }
 
 .wrapper {
-    padding: 3vh 10vw;
-    &:nth-child(odd) {
-    background-color: $extreme-light-gray;
-    }
+    padding: 6vh 10vw;
 }
 
 .banner-wrapper {
@@ -43,7 +40,7 @@
 }
 
 .spacefill {
-    height: 8vw;
+    height: 6vw;
 }
 
 .major-title {
@@ -99,4 +96,9 @@
   padding-right: 3vw;
 }
 
+}
+
+
+#news, #team {
+        background-color: $extreme-light-gray;
 }

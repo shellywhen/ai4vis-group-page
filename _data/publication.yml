@@ -9,9 +9,9 @@
     - Haidong Zhang
     - Dongmei Zhang
     - Huamin Qu
-  venue: IEEE Trans. Vis. Comput.
-  note: To appear on VIS'21
+  venue: TVCG
   year: 2021
+  note: To appear
   image: https://awuac.student.ust.hk/img/work2021Survey.c53b1f50.png
   arxiv: https://arxiv.org/abs/2102.01330
   link: https://ai4vis.github.io/
@@ -28,12 +28,27 @@
      - Haidong Zhang
      - Huamin Qu
      - Dongmei Zhang
-  venue: IEEE Trans. Vis. Comput.
+  venue: TVCG
   note: To appear on VIS'21
   year: 2021
   image: "https://awuac.student.ust.hk/img/work2021multivision.bbce5edd.jpg"
   arxiv: "https://arxiv.org/abs/2107.07823"
   code: "https://github.com/Franches/MultiVision"
+
+- id: li2021kg4vis
+  title: "KG4Vis: A Knowledge Graph-Based Approach for Visualization Recommendation"
+  authors:
+    - Haotian Li
+    - Yong Wang
+    - Songheng Zhang
+    - Yangqiu Song
+    - Huamin Qu
+  link: https://kg4vis.github.io/
+  image: https://haotian-li.com/image/kg4vis-thumbnail.png
+  pdf: https://haotian-li.com/paper/kg4vis.pdf
+  venue: TVCG
+  year: 2021
+  note: To appear on VIS'21
 
 - id: lin2021infocolorizer
   title: "InfoColorizer: Interactive Recommendation of Color Palettes for Infographics"
@@ -44,10 +59,11 @@
       - Yiqiu Guo 
       - Fan Du
       - Huamin Qu
-  venue: IEEE Trans. Vis. Comput.
+  venue: TVCG
   arxiv: https://arxiv.org/abs/2102.02041
   image: http://vis.cse.ust.hk/vislab_homepage/publication/tvcg_linping_2021_infocolorizer.png
   year: 2021
+  note: To presented on VIS'21
   doi: https://doi.org/10.1109/tvcg.2021.3085327
 
 - id: lin2021colormap
@@ -60,7 +76,7 @@
     - Haotian Li
     - Chi-Wing Fu
     - Huamin Qu
-  venue: IEEE Trans. Vis. Comput. Graph
+  venue: TVCG
   year: 2021
   doi: https://doi.org/10.1109/TVCG.2021.3070876
   arxiv: https://arxiv.org/abs/2103.00741
@@ -68,7 +84,7 @@
 
 - id: wu2021learning
   title: Learning to Automate Chart Layout Configurations Using Crowdsourced Paired Comparison
-  venue: ACM CHI 
+  venue: CHI 
   authors:
     - Aoyu Wu
     - Liwenhan Xie
@@ -81,20 +97,6 @@
   arxiv: https://arxiv.org/abs/2101.03680.pdf
   image: http://vis.cse.ust.hk/vislab_homepage/publication/chi_aoyu_2021.png
 
-- id: law2021causal
-  title: Causal Perception in Question-Answering Systems
-  authors:
-    - Po-Ming Law
-    - Leo Yu-Ho Lo
-    - Alex Endert
-    - John Stasko
-    - Huamin Qu
-  venue: ACM CHI 
-  doi: https://doi.org/10.1145/3411764.3445444
-  image: http://vis.cse.ust.hk/vislab_homepage/publication/chi_terrance_2021.png
-  year: 2021
-  arxiv: https://arxiv.org/abs/2012.14477
-
 - id: wu2020mobile
   title: "MobileVisFixer: Tailoring Web Visualizations for Mobile Phones Leveraging an Explainable Reinforcement Learning Framework"
   authors:
@@ -104,7 +106,7 @@
     - Bongshin Lee
     - Petra Isenberg
     - Huamin Qu
-  venue: ACM CHI
+  venue: CHI
   image: http://vis.cse.ust.hk/vislab_homepage/publication/tvcg_aoyu_2020.png
   year: 2020
   arxiv: https://arxiv.org/abs/2008.06678
@@ -118,11 +120,12 @@
     - Qianwen Wang
     - Benjamin Bach
     - Huamin Qu
-  venue: ACM CHI
+  venue: CHI
   year: 2020
   image: http://vis.cse.ust.hk/vislab_homepage/publication/chi_zhutian_2020.jpg
   pdf: https://chenzhutian.org/projects/2020_arposter/paper.pdf
   doi: https://doi.org/10.1145/3313831.3376436
+  recording: https://youtu.be/EKQCRMVrgOc
 
 - id: chen2019lasso
   title: "LassoNet: Deep Lasso-Selection of 3D Point Clouds"
@@ -133,10 +136,10 @@
     - Lingyun Yu
     - Chi-Wing Fu
     - Huamin Qu
-  venue: IEEE Trans. Vis. Comput. Graph.
+  venue: TVCG
   year: 2019
   doi: https://doi.org/10.1109/TVCG.2019.2934332
-  pdf: https://chenzhutian.org/projects/2019_lassonet/paper.pdf
+  arxiv: https://arxiv.org/abs/1907.13538
   link: https://lassonet.github.io/
   image: http://vis.cse.ust.hk/vislab_homepage/publication/tvcg_zhutian_2019.jpg
 
@@ -149,7 +152,7 @@
     - Weiwei Cui
     - Tengfei Ma
     - Huamin Qu
-  venue: IEEE Trans. Vis. Comput. Graph.
+  venue: TVCG
   year: 2019
   arxiv: https://arxiv.org/abs/1907.11040
   doi: https://doi.org/10.1109/TVCG.2019.2934798
@@ -163,10 +166,10 @@
     - Qianwen Wang
     - Yong Wang
     - Huamin Qu
-  venue: IEEE Trans. Vis. Comput. Graph.
+  venue: TVCG
   year: 2019
   link: https://chenzhutian.org/auto-infog-timeline
-  pdf: https://chenzhutian.org/projects/2019_autotimeline/paper.pdf
+  arxiv: https://arxiv.org/abs/1907.13550
   doi: https://doi.org/10.1109/TVCG.2019.2934810
   image: http://vis.cse.ust.hk/vislab_homepage/publication/tvcg_zhutian_2019_2.jpg
 
@@ -178,7 +181,7 @@
     - Abishek Puri
     - Sahil Wadhwa
     - Huamin Qu
-  venue: IEEE Comput. Graph. Appl.
+  venue: CGA
   year: 2018
   doi: https://doi.org/10.1109/MCG.2018.2881501
   arxiv: https://arxiv.org/abs/1808.00703

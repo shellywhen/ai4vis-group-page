@@ -7,10 +7,14 @@
   type: talk
   date: 2021-07-15
 
-- message: "One paper accepted on IEEE VIS."
+- message: "Aoyu Wu visited visaulizaztion groups in Fudan University, Tongji University, and Shandong University and introduced the area."
+  type: talk
+  date: 2021-07-15
+
+- message: "Two papers on visualization recommendation were accepted on IEEE VIS!"
   date: 2021-07-01
   type: pub
 
-- message: "Two papers of Linping Yuan on AI for color design in vis were published in TVCG."
+- message: "Two papers of Linping Yuan on AI for color design in vis were published in TVCG. Stay tuned for the VIS'21 presentation of *InfoColorizer*"
   date: 2021-06-15
   type: pub

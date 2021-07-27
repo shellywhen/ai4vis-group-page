@@ -12,22 +12,24 @@
         {% if pub.venue_url %}
         <a target="_blank" href="{{ pub.venue_url }}">
       {% endif %}
+      {% if site.data.venue[pub.venue] %}
       {% assign venue = site.data.venue[pub.venue] %}
       <a class="tip">
-          {{ pub.venue }}
           <span>
-              <!-- {% if venue.prefix %}
+              {% if venue.prefix %}
               {{ venue.prefix }}
-              {% endif %} -->
-              {{ venue.full }} 
-              <!-- ({{venue.abbr}}) -->
+              {% endif %}
+              {{ venue.full }} ({{venue.short}}).
           </span>
-        </a><!--
-      {% if pub.venue_location %}
-        --> in {{ pub.venue_location }}<!--
+        </a>
+      {% else %}
+          {{ pub.venue }}
       {% endif %}
-      -->{% if pub.venue_url %}</a>{% endif %} {{ pub.year }}. {% if pub.type[0] == "Poster" %}<span class="poster_note">({{pub.type[0]}})</span>{%- endif -%} {% if pub.type[0] == "Notes" %}<span class="poster_note">({{pub.type[0]}})</span>{%-
-        endif -%} {% if pub.note %}<span class="ac_note"> (<i>{{pub.note}}</i>)</span>{%- endif -%}
+      {% if pub.venue_location %}
+       in {{ pub.venue_location }}
+      {% endif %}
+     {% if pub.venue_url %}</a>{% endif %} {{ pub.year }}. {% if pub.type[0] == "Poster" %}<span class="poster_note">({{pub.type[0]}})</span>{%- endif -%} {% if pub.type[0] == "Notes" %}<span class="poster_note">({{pub.type[0]}})</span>{%-
+        endif -%} {% if pub.note %}<span class="ac_note"> — <i>{{pub.note}}</i></span>{%- endif -%}
     </div>
     {% endif %} {% if pub.description %}
     <p class="description">

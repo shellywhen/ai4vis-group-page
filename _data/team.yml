@@ -76,9 +76,9 @@
   image: ./assets/img/person/collaborator/msr.png
   role: collaborator
 
-- name: MSRA
-  image: ./assets/img/person/collaborator/logo_MSRA.png
-  role: collaborator
+# - name: MSRA
+#   image: ./assets/img/person/collaborator/logo_MSRA.png
+#   role: collaborator
 
 - name: INRIA 
   image: ./assets/img/person/collaborator/inria.png
@@ -92,6 +92,14 @@
   image: ./assets/img/person/collaborator/cmu-red.png
   role: collaborator
 
+- name: UCSD
+  image: ./assets/img/person/collaborator/ucsd.png
+  role: collaborator
+
+- name: Harvard
+  image: ./assets/img/person/collaborator/harvard.png
+  role: collaborator
+
 - name: Waterloo
   image: ./assets/img/person/collaborator/waterloo.jpg
   role: collaborator
@@ -99,3 +107,16 @@
 - name: CUHK
   image: ./assets/img/person/collaborator/cuhk.png
   role: collaborator
+
+- name: Monash
+  image: ./assets/img/person/collaborator/monash.png
+  role: collaborator
+
+- name: SMU
+  image: ./assets/img/person/collaborator/smu.png
+  role: collaborator
+
+- name: ZJU
+  image: ./assets/img/person/collaborator/zju.png
+  role: collaborator
+
