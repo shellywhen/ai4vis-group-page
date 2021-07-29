@@ -4,6 +4,10 @@
     }
 }
 
+body {
+    position: relative;
+}
+
 #btn-back-to-top {
     position: fixed;
     bottom: 20px;
@@ -12,7 +16,9 @@
     background-color: #EAECF0;
     color:white;
   }
-
+nav {
+    border-bottom: white 1px solid !important;
+}
 .navbar-custom,
 .navbar-custom.top-nav-short,
 .navbar-custom.top-nav-short-permanent {
@@ -32,11 +38,30 @@
 }
 .banner {
     max-width: 100%;
-    // position: relative;
-    // top: 50%;
-    // transform: translateY(-50%);
-    // vertical-align: middle;
     
+}
+.banner-container {
+    background-image: url(./assets/img/bg.png);
+    height: 40vh;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    border-width: 0.1rem;
+    vertical-align: middle;
+    position: relative;
+
+    div {
+        vertical-align: middle;
+        text-align: center;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        h1 {
+            font-size: 7.5rem;
+            margin-bottom: 30px;
+        }
+    }
+
 }
 
 .spacefill {

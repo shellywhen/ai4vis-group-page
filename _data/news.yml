@@ -3,11 +3,7 @@
   date: 2021-07-20
   type: pub
 
-- message: "Aoyu Wu presented *Empowering Visualizations with AI: From Data Visualization to Visualization Data* on [Games Webinar](https://www.bilibili.com/video/BV1Sg411T7fn)."
-  type: talk
-  date: 2021-07-15
-
-- message: "Aoyu Wu visited visaulizaztion groups in Fudan University, Tongji University, and Shandong University and introduced the area."
+- message: "Aoyu Wu visited visaulizaztion groups in Fudan University, Tongji University, and Shandong University and gave a talk on  [Games Webinar](https://www.bilibili.com/video/BV1Sg411T7fn)"
   type: talk
   date: 2021-07-15
 
@@ -15,6 +11,18 @@
   date: 2021-07-01
   type: pub
 
-- message: "Two papers of Linping Yuan on AI for color design in vis were published in TVCG. Stay tuned for the VIS'21 presentation of *InfoColorizer*"
+- message: "Two papers of on AI for color design in vis were published in TVCG. Stay tuned for the VIS'21 presentation of *InfoColorizer*"
   date: 2021-06-15
+  type: pub
+
+- message: "One paper on assessing chart aesthetics was accepted in CHI."
+  date: 2020-12-14
+  type: pub
+
+- message: "Two papers were accepted in VIS."
+  date: 2020-07-01
+  type: pub
+
+- message: "Three papers were accepted in VIS."
+  date: 2019-07-01
   type: pub

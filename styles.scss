@@ -3,14 +3,20 @@
 
 @charset "utf-8";
 $dark-gray: #404040;
+$slight-dark-gray: #535353;
 $extreme-light-gray: #E9ECF0;
-$highlight: #0085A1;
+$super-light-gray: #f3f7fd;
+$highlight: #008AFF; //#0085A1;
 $gray: #c0bebe;
 .navbar-custom {
     // background-color: black;
 
 }
-
+.nav-link {
+    &.active {
+        color: $highlight !important;
+    }
+}
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import 
     "layout",

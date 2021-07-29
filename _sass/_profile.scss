@@ -9,12 +9,27 @@
 .profile-card {
     margin: 5px 1.5vw;
     text-align: center;
-    div {
-        font-size: 1.1rem;
-        color: $dark-gray;
-    }
+    line-height: 1.4;
     a:hover {
         color: $highlight;
+    }
+    div {
+        .profile-name {
+            font-size: 1.15rem;
+            color: black;
+            font-family: 'Source Sans Pro';
+            &:hover {
+                color: $highlight;
+            }
+        }
+        .profile-institute {
+            color: $slight-dark-gray;
+            font-size: 0.95rem;
+            font-family: 'Open Sans';
+            :hover {
+                color: $highlight;
+            }
+        }
     }
 }
 
