@@ -15,7 +15,7 @@
       {% if site.data.venue[pub.venue] %}
       {% assign venue = site.data.venue[pub.venue] %}
       <a class="tip">
-          <span>
+          <span class="venue">
               {% if venue.prefix %}
               {{ venue.prefix }}
               {% endif %}
@@ -23,7 +23,7 @@
           </span>
         </a>
       {% else %}
-          {{ pub.venue }}
+          <span class="venue"> {{ pub.venue }} </span>
       {% endif %}
       {% if pub.venue_location %}
        in {{ pub.venue_location }}
