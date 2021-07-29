@@ -5,12 +5,14 @@
 
 - name: Linping Yuan
   url: https://yuanlinping.github.io/
-  image: http://vis.cse.ust.hk/vislab_homepage/img/people/linping.jpg
+  img: http://vis.cse.ust.hk/vislab_homepage/img/people/linping.jpg
+  image: ./assets/img/person/team/linping.png
   role: team
   
 - name: Haotian Li
   url: https://haotian-li.com/
-  image: https://haotian-li.com/photo_2.jpg
+  img: https://haotian-li.com/photo_2.jpg
+  image: ./assets/img/person/team/huamin.png
   role: team
   
 - name: Wai Tong
@@ -70,7 +72,9 @@
   
 - name: Huamin Qu
   url: http://huamin.org
-  role: professor
+  role: team
+  image: ./assets/img/person/team/huamin.png
+  img: http://huamin.org/images/huamin_qu_new.jpg
 
 - name: MSR 
   image: ./assets/img/person/collaborator/msr.png
