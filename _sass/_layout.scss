@@ -57,15 +57,15 @@ nav {
         top: 50%;
         transform: translateY(-50%);
         h1 {
-            font-size: 7.5rem;
-            margin-bottom: 30px;
+            font-size: 7.2rem;
+            margin-bottom: 20px;
         }
     }
 
 }
 
 .spacefill {
-    height: 6vw;
+    height: 60px;
 }
 
 .major-title {
@@ -119,6 +119,9 @@ nav {
 .navbar-custom.top-nav-short-permanent {
   padding-left: 3vw;
   padding-right: 3vw;
+}
+.spacefill {
+    height: 50px;
 }
 
 }

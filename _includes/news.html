@@ -1,6 +1,6 @@
 <div class="news-item">
     <div class="news-content"><li>{{ news.message | markdownify | remove: '<p>' | remove: '</p>' }}</li></div>
-    <span class="time-span"><time datetime="{{ news.date }}">{{ news.date | date: "%b'%y" }}</time></span>
+    <span class="time-span"><time datetime="{{ news.date }}">{{ news.date | date: "%b %Y" }}</time></span>
     </div>
 
     

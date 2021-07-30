@@ -45,10 +45,10 @@
     - Songheng Zhang
     - Yangqiu Song
     - Huamin Qu
+  arxiv: https://arxiv.org/abs/2107.12548
   link: https://kg4vis.github.io/
   img: https://haotian-li.com/image/kg4vis-thumbnail.png
   image: ./assets/img/project/li2021kg4vis.png
-  pdf: https://haotian-li.com/paper/kg4vis.pdf
   venue: TVCG
   year: 2021
   note: To appear on VIS'21
@@ -102,6 +102,7 @@
   arxiv: https://arxiv.org/abs/2101.03680.pdf
   img: http://vis.cse.ust.hk/vislab_homepage/publication/chi_aoyu_2021.png
   image: ./assets/img/project/wu2021learning.png
+  recording: https://youtu.be/MqW_5b_R-jw
 
 - id: wu2020mobile
   title: "MobileVisFixer: Tailoring Web Visualizations for Mobile Phones Leveraging an Explainable Reinforcement Learning Framework"
@@ -118,6 +119,7 @@
   arxiv: https://arxiv.org/abs/2008.06678
   doi: https://doi.org/10.1109/TVCG.2020.3030423
   image: ./assets/img/project/wu2020mobile.png
+  video: https://youtu.be/7vJkxLGdRBU
 
 - id: chen2020augment
   title: Augmenting Static Visualizations with PapARVis Designer
@@ -151,6 +153,7 @@
   link: https://lassonet.github.io/
   img: http://vis.cse.ust.hk/vislab_homepage/publication/tvcg_zhutian_2019.jpg
   image: ./assets/img/project/chen2019lasso.jpg
+  recording: https://vimeo.com/374041372
 
 - id: wang2019draw
   title: "DeepDrawing: A Deep Learning Approach to Graph Drawing"
@@ -167,6 +170,7 @@
   doi: https://doi.org/10.1109/TVCG.2019.2934798
   img: http://vis.cse.ust.hk/vislab_homepage/publication/tvcg_yong_2019.png
   image: ./assets/img/project/wang2019draw.png
+  recording: https://vimeo.com/369976078
 
 - id: chen2019timeline
   title: "Towards Automated Infographic Design: Deep Learning-based Auto-Generation of Extensible Timeline"
@@ -183,6 +187,7 @@
   doi: https://doi.org/10.1109/TVCG.2019.2934810
   img: http://vis.cse.ust.hk/vislab_homepage/publication/tvcg_zhutian_2019_2.jpg
   image: ./assets/img/project/chen2019timeline.jpg
+  video: https://vimeo.com/360050115
 - id: haleen2018evaluate
   title: "Evaluating the Readability of Force Directed Graph Layouts: A Deep Learning Approach"
   authors:
