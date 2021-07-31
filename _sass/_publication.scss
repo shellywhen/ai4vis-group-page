@@ -28,6 +28,7 @@
             line-height: 1.1;
             margin-bottom: 5px;
             color: black;
+            font-weight: 100;
             a {
                 color: $dark-gray;
                 &:hover {
@@ -50,7 +51,7 @@
     //   border: $gray solid 1px;
       border-radius: 0.5rem;
       padding: 1rem;
-      box-shadow: 0 .5rem .5rem #00000026!important;
+      box-shadow: 0 .2rem .5rem #00000026!important;
       .publication-content h3 {
         font-size: 1.02rem;
       }
