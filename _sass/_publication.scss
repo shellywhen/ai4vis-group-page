@@ -22,10 +22,12 @@
         display: block;
         h3 {
             font-size: 1.1rem;
+            font-family: 'Source Sans Pro', 'Open Sans', 'Times New Roman', serif;
         }
         .authors {
             line-height: 1.1;
             margin-bottom: 5px;
+            color: black;
             a {
                 color: $dark-gray;
                 &:hover {
@@ -36,6 +38,29 @@
         .venue {
             line-height: 1.1;
             margin-bottom: .4rem;
+            color: $slight-dark-gray;
         }
     }
+}
+
+
+@media (max-width: 700px) {
+    .publication {
+      display: block;
+    //   border: $gray solid 1px;
+      border-radius: 0.5rem;
+      padding: 1rem;
+      box-shadow: 0 .5rem .5rem #00000026!important;
+      .publication-content h3 {
+        font-size: 1.02rem;
+      }
+      .thumbnail {
+        margin-bottom: 5px;
+        text-align: center;
+        margin-right: 0;
+        img {
+            width: 70%;
+        }
+      }
+     }
 }

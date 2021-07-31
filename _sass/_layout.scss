@@ -13,7 +13,7 @@ body {
     bottom: 20px;
     right: 20px;
     display: none;
-    background-color: #EAECF0;
+    background-color: $extreme-light-gray;
     color:white;
   }
 nav {
@@ -108,21 +108,18 @@ nav {
 }
 
 @media (max-width: 700px) {
-    .thumbnail {
-       display: none;
-    }
     .wrapper {
         padding: 3vh 3vw;
     }
     .navbar-custom,
-.navbar-custom.top-nav-short,
-.navbar-custom.top-nav-short-permanent {
-  padding-left: 3vw;
-  padding-right: 3vw;
-}
-.spacefill {
-    height: 50px;
-}
+    .navbar-custom.top-nav-short,
+    .navbar-custom.top-nav-short-permanent {
+    padding-left: 3vw;
+    padding-right: 3vw;
+    }
+    .spacefill {
+        height: 50px;
+    }
 
 }
 
