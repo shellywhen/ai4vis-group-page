@@ -92,7 +92,7 @@ nav {
     text-align: left; 
     border-bottom: 1px dashed $gray; 
     line-height: 0.1em;
-    margin-bottom: 20px;
+    margin-bottom: 5vh;
     span {
         padding:0 20px 0 0; 
         background-color: white;
@@ -109,7 +109,7 @@ nav {
 
 @media (max-width: 700px) {
     .wrapper {
-        padding: 3vh 3vw;
+        padding: 3vh 5vw;
     }
     .navbar-custom,
     .navbar-custom.top-nav-short,
@@ -119,6 +119,17 @@ nav {
     }
     .spacefill {
         height: 50px;
+    }
+    .banner-container {
+        div {
+            padding: 0 5vw;
+            h1 {
+                font-size: 6rem;
+            }
+            h3 {
+                font-size: 1.3rem;
+            }
+        }
     }
 
 }

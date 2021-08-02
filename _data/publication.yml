@@ -14,7 +14,8 @@
   note: To appear
   img: https://awuac.student.ust.hk/img/work2021Survey.c53b1f50.png
   image: ./assets/img/project/wu2021ai4vis.png
-  arxiv: https://arxiv.org/abs/2102.01330
+  # arxiv: https://arxiv.org/abs/2102.01330
+  pdf: ./assets/papers/TVCG21-AI4VIS-paper.pdf
   link: https://ai4vis.github.io/
   slides: https://drive.google.com/file/d/1_Ihmdf9_M9Ee5RAmYoLF9Whu1DLUeFXp/view?usp=sharing
   recording: https://www.bilibili.com/video/BV1Sg411T7fn
@@ -113,7 +114,7 @@
     - Bongshin Lee
     - Petra Isenberg
     - Huamin Qu
-  venue: CHI
+  venue: TVCG
   img: http://vis.cse.ust.hk/vislab_homepage/publication/tvcg_aoyu_2020.png
   year: 2020
   arxiv: https://arxiv.org/abs/2008.06678
