@@ -12,13 +12,27 @@
     margin-bottom: 5vh;
     display: flex;
     .thumbnail {
+        position: relative;
+        min-width: 15vw;
+        overflow: hidden;
         img {
             width: 15vw;
             min-width: 15vw;
             border-radius: 5px;
             background-color: white;
+            -webkit-transition: all .5s;
+            -moz-transition: all .5s;
+            -o-transition: all .5s;
+            transition: all .5s;
         }
         margin-right: 2vw;
+    }
+    .thumbnail:hover img, .thumbnail:focus img {
+        -ms-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        transform: scale(1.2);
     }
     .publication-content {
         display: block;

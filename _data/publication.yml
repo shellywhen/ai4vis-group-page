@@ -70,6 +70,8 @@
   year: 2021
   note: To be presented on VIS'21
   doi: https://doi.org/10.1109/tvcg.2021.3085327
+  link: https://yuanlinping.github.io/InfoColorizer/
+  video: https://youtu.be/FZvLt0AAIAI
 
 - id: yuan2021colormap
   title: Deep Colormap Extraction from Visualizations
@@ -87,6 +89,7 @@
   arxiv: https://arxiv.org/abs/2103.00741
   img: http://vis.cse.ust.hk/vislab_homepage/publication/tvcg_linping_2021_colormap.png
   image: ./assets/img/project/yuan2021colormap.png
+  link: https://yuanlinping.github.io/deep_colormap_extraction/
 
 - id: wu2021learning
   title: Learning to Automate Chart Layout Configurations Using Crowdsourced Paired Comparison

@@ -3,7 +3,7 @@
     {% if people.role == include.term %}
         <div class="profile-card">
         <a target="_blank" href="{{ people.url }}">
-        <div class="{{ include.class }}" style="background-image: url({{ people.image }})"></div>
+        <div class="parent-img"><div class="{{ include.class }} child-img" style="background-image: url({{ people.image }})"></div></div>
         <div>
             <span class="profile-name">
                 {% if people.addr %}

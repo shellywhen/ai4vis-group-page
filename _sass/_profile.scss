@@ -10,6 +10,7 @@
     margin: 5px 1.5vw;
     text-align: center;
     line-height: 1.4;
+    
     a:hover {
         color: $highlight;
     }
@@ -38,12 +39,8 @@
     height: 150px;
     min-width: 20px;
     min-height: 20px;
-    border-radius: 50%; 
     background-position: center center;
     background-size: cover;
-    border-width: 0.1rem;
-    border-color: white;
-    border-style: solid;
   }
 
 .profile-collaborator {
@@ -56,4 +53,35 @@
     background-size: cover;
     width: fit-content;
     height: fit-content;
+}
+
+.parent-img:hover .child-img, .parent-img:focus .child-img {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.parent-img:hover .child-img:before, .parent-img:focus .child-img:before {
+    display: block;
+}
+
+.parent-img {
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    border-width: 0.1rem;
+    border-color: white;
+    border-style: solid;
+    border-radius: 50%; 
+}
+
+.child-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
 }
