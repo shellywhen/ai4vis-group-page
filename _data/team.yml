@@ -50,7 +50,7 @@
 - name: Zhutian Chen
   url: https://chenzhutian.org/
   image: ./assets/img/person/alumini/zhutian.png
-  role: alumini
+  role: alumni
   institute: UCSD 
   title: postdoc
 
@@ -58,7 +58,7 @@
   url: https://qianwen.info/
   img: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=jtSR4hoAAAAJ&citpid=1
   image: ./assets/img/person/alumini/qianwen.png
-  role: alumini
+  role: alumni
   institute: Harward
   title: postdoc
 
@@ -66,7 +66,7 @@
   url: https://www.microsoft.com/en-us/research/people/wangyun/
   img: https://www.microsoft.com/en-us/research/uploads/prod/2019/04/unnamed-file.jpg
   image: ./assets/img/person/alumini/yun.jpg
-  role: alumini
+  role: alumni
   institute: MSRA
   title: Senior Researcher
 
@@ -74,13 +74,13 @@
   url: http://www.yong-wang.org/
   img: http://www.yong-wang.org/images/wangyong.png
   image: ./assets/img/person/alumini/yong.png
-  role: alumini
+  role: alumni
   institute: SMU
   title: Assistant Professor
 
 - name: Weiwei Cui
   url: https://www.microsoft.com/en-us/research/people/weiweicu/
-  role: alumini
+  role: alumni
   img: https://www.microsoft.com/en-us/research/wp-content/uploads/2016/03/weiweicu-e1459374782237.jpg
   image: ./assets/img/person/alumini/weiwei-cui.jpg
   institute: MSRA
