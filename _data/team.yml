@@ -59,7 +59,7 @@
   image: ./assets/img/person/team/aoyu.png
   role: alumni
   title: postdoc
-  institute: Hardward
+  institute: Harvard
   
 
 - name: Xinhuan Shu
@@ -74,7 +74,7 @@
   url: https://chenzhutian.org/
   image: ./assets/img/person/alumini/zhutian.png
   role: alumni
-  institute: Harward
+  institute: Harvard
   title: postdoc
 
 - name: Qianwen Wang
@@ -82,7 +82,7 @@
   img: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=jtSR4hoAAAAJ&citpid=1
   image: ./assets/img/person/alumini/qianwen.png
   role: alumni
-  institute: Harward
+  institute: Harvard
   title: postdoc
 
 - name: Yun Wang
