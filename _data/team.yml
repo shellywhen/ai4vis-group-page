@@ -125,6 +125,10 @@
   image: ./assets/img/person/collaborator/apple.png
   role: collaborator
 
+- name: Adobe Research
+  image: ./assets/img/person/collaborator/adobe.png
+  role: collaborator
+
 - name: CMU
   image: ./assets/img/person/collaborator/cmu-red.png
   role: collaborator
