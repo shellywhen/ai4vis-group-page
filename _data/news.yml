@@ -1,4 +1,12 @@
 
+- message: "Our ongoing project was funded by the Research Grants Council with 1M HKD."
+  date: 2022-07-05
+  type: fund
+
+- message: "Two papers were published on ACM CHI!"
+  date: 2021-12-15
+  type: pub
+
 - message: "Check our latest survey on AI4VIS (to appear in TVCG) to learn more about the emerging field!"
   date: 2021-07-20
   type: pub

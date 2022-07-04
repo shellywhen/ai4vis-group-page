@@ -10,7 +10,6 @@
     margin: 5px 1.5vw;
     text-align: center;
     line-height: 1.4;
-    
     a:hover {
         color: $highlight;
     }
@@ -27,7 +26,7 @@
             color: $slight-dark-gray;
             font-size: 0.95rem;
             font-family: 'Open Sans';
-            :hover {
+             :hover {
                 color: $highlight;
             }
         }
@@ -41,7 +40,7 @@
     min-height: 20px;
     background-position: center center;
     background-size: cover;
-  }
+}
 
 .profile-collaborator {
     img {
@@ -55,7 +54,8 @@
     height: fit-content;
 }
 
-.parent-img:hover .child-img, .parent-img:focus .child-img {
+.parent-img:hover .child-img,
+.parent-img:focus .child-img {
     -ms-transform: scale(1.2);
     -moz-transform: scale(1.2);
     -webkit-transform: scale(1.2);
@@ -63,7 +63,8 @@
     transform: scale(1.2);
 }
 
-.parent-img:hover .child-img:before, .parent-img:focus .child-img:before {
+.parent-img:hover .child-img:before,
+.parent-img:focus .child-img:before {
     display: block;
 }
 
@@ -74,7 +75,7 @@
     border-width: 0.1rem;
     border-color: white;
     border-style: solid;
-    border-radius: 50%; 
+    border-radius: 50%;
 }
 
 .child-img {
@@ -84,4 +85,14 @@
     -moz-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s;
+}
+
+.award-tag {
+    color: firebrick;
+    font-weight: 400;
+    margin-top: -5px;
+}
+
+.award-icon {
+    color: firebrick;
 }

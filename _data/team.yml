@@ -5,11 +5,13 @@
   img: http://huamin.org/images/huamin_qu_new.jpg
   addr: Prof.
 
-- name: Aoyu Wu
-  url: http://awuac.student.ust.hk/
-  img: http://awuac.student.ust.hk/img/gallery04.65072512.jpg
-  image: ./assets/img/person/team/aoyu.png
+
+- name: Haotian Li
+  url: https://haotian-li.com/
+  img: https://haotian-li.com/photo_2.jpg
+  image: ./assets/img/person/team/haotian.jpg
   role: team
+
 
 - name: Linping Yuan
   url: https://yuanlinping.github.io/
@@ -17,11 +19,20 @@
   image: ./assets/img/person/team/linping.png
   role: team
   
-- name: Haotian Li
-  url: https://haotian-li.com/
-  img: https://haotian-li.com/photo_2.jpg
-  image: ./assets/img/person/team/haotian.png
+
+
+- name: Leo Yu-Ho Lo
+  url: https://leoyuholo.com/
+  image: ./assets/img/person/team/leo.jpg
+  img: http://vis.cse.ust.hk/vislab_homepage/img/people/leo.jpg
   role: team
+
+- name: Yanna Lin
+  url: https://yannahhh.github.io/
+  img: https://yannahhh.github.io/images/lala1.jpeg
+  image: ./assets/img/person/team/yanna.jpg
+  role: team
+
   
 - name: Wai Tong
   url: http://home.cse.ust.hk/~wtong/
@@ -29,17 +40,12 @@
   image: ./assets/img/person/team/wai.jpeg
   role: team
 
-- name: Yuzhe Jiang
-  url: http://yjiangbu.student.ust.hk/
-  img: http://vis.cse.ust.hk/vislab_homepage/img/people/yuzhe.jpg
-  image: ./assets/img/person/team/yuzhe.png
-  role: team
+# - name: Yuzhe Jiang
+#   url: http://yjiangbu.student.ust.hk/
+#   img: http://vis.cse.ust.hk/vislab_homepage/img/people/yuzhe.jpg
+#   image: ./assets/img/person/team/yuzhe.png
+#   role: team
 
-- name: Xinhuan Shu
-  url: http://www.cse.ust.hk/~xshuaa/
-  img: http://www.cse.ust.hk/~xshuaa/img/student.jpeg
-  image: ./assets/img/person/team/xinhuan.png
-  role: team
 
 - name: Liwenhan Xie
   url: https://shellywhen.github.io/
@@ -47,11 +53,28 @@
   image: ./assets/img/person/team/liwenhan.png
   role: team
 
+- name: Aoyu Wu
+  url: https://wowjyu.github.io/
+  img: https://wowjyu.github.io/img/gallery19.5bfd1808.jpg
+  image: ./assets/img/person/team/aoyu.png
+  role: alumni
+  title: postdoc
+  institute: Hardward
+  
+
+- name: Xinhuan Shu
+  url: https://shuxinhuan.github.io/
+  img: http://www.cse.ust.hk/~xshuaa/img/student.jpeg
+  image: ./assets/img/person/team/xinhuan.png
+  role: alumni
+  institute: U. Edin
+  title: postdoc
+
 - name: Zhutian Chen
   url: https://chenzhutian.org/
   image: ./assets/img/person/alumini/zhutian.png
   role: alumni
-  institute: UCSD 
+  institute: Harward
   title: postdoc
 
 - name: Qianwen Wang

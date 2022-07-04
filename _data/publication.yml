@@ -1,3 +1,38 @@
+- id: li2022retrieval
+  title: "Structure-aware Visualization Retrieval"
+  authors:
+    - Haotian Li
+    - Yong Wang
+    - Aoyu Wu
+    - Huan Wei
+    - Huamin Qu
+  venue: CHI
+  year: 2022
+  img: https://haotian-li.com/image/structure-vis-retrieval.png
+  image: ./assets/img/project/li2022retrieval.png
+  arxiv: https://arxiv.org/abs/2202.05960
+  doi: https://doi.org/10.1145/3491102.3502048
+  recording: https://youtu.be/xWpp8aNn_xI
+  awards:
+    - Best Paper Honorable Mention in IEEE VIS Conference
+
+- id: wu2022computableviz
+  title: "ComputableViz: Mathematical Operators as a Formalism for Visualization Processing and Analysis"
+  authors:
+    - Aoyu Wu
+    - Wai Tong
+    - Haotian Li
+    - Dominik Moritz
+    - Yong Wang
+    - Huamin Qu
+  venue: CHI
+  year: 2022
+  img: https://haotian-li.com/image/computableviz.png
+  image: ./assets/img/project/wu2022computableviz.png
+  arxiv: https://arxiv.org/abs/2204.00856
+  doi: https://doi.org/10.1145/3491102.3517618
+  recording: https://youtu.be/NQXaIwgHePM
+
 - id: wu2021ai4vis
   title: "AI4VIS: Survey on Artificial Intelligence Approaches for Data Visualization"
   authors:
@@ -11,11 +46,10 @@
     - Huamin Qu
   venue: TVCG
   year: 2021
-  note: To appear
   img: https://awuac.student.ust.hk/img/work2021Survey.c53b1f50.png
   image: ./assets/img/project/wu2021ai4vis.png
-  # arxiv: https://arxiv.org/abs/2102.01330
-  pdf: ./assets/papers/TVCG21-AI4VIS-paper.pdf
+  arxiv: https://arxiv.org/abs/2102.01330
+  doi: https://doi.org/10.1109/TVCG.2021.3099002
   link: https://ai4vis.github.io/
   slides: https://drive.google.com/file/d/1_Ihmdf9_M9Ee5RAmYoLF9Whu1DLUeFXp/view?usp=sharing
   recording: https://www.bilibili.com/video/BV1Sg411T7fn
@@ -31,12 +65,12 @@
      - Huamin Qu
      - Dongmei Zhang
   venue: TVCG
-  note: To appear on VIS'21
   year: 2021
   img: "https://awuac.student.ust.hk/img/work2021multivision.bbce5edd.jpg"
   image:  ./assets/img/project/wu2021multivision.jpg
   arxiv: "https://arxiv.org/abs/2107.07823"
   code: "https://github.com/Franches/MultiVision"
+  doi: https://doi.org/10.1109/TVCG.2021.3114826
 
 - id: li2021kg4vis
   title: "KG4Vis: A Knowledge Graph-Based Approach for Visualization Recommendation"
@@ -47,12 +81,14 @@
     - Yangqiu Song
     - Huamin Qu
   arxiv: https://arxiv.org/abs/2107.12548
+  doi: https://doi.org/10.1109/TVCG.2021.3114863
   link: https://kg4vis.github.io/
   img: https://haotian-li.com/image/kg4vis-thumbnail.png
   image: ./assets/img/project/li2021kg4vis.png
   venue: TVCG
   year: 2021
-  note: To appear on VIS'21
+  awards:
+    - Best Paper Honorable Mention in IEEE VIS Conference
 
 - id: yuan2021infocolorizer
   title: "InfoColorizer: Interactive Recommendation of Color Palettes for Infographics"
@@ -68,7 +104,6 @@
   img: http://vis.cse.ust.hk/vislab_homepage/publication/tvcg_linping_2021_infocolorizer.png
   image: ./assets/img/project/yuan2021infocolorizer.png
   year: 2021
-  note: To be presented on VIS'21
   doi: https://doi.org/10.1109/tvcg.2021.3085327
   link: https://yuanlinping.github.io/InfoColorizer/
   video: https://youtu.be/FZvLt0AAIAI

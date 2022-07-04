@@ -21,7 +21,7 @@
 
   
 
-  <link rel="alternate" type="application/rss+xml" title="AI4VIS" href="/feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="AI4VIS" href="http://localhost:4000/feed.xml">
   <link rel="icon" href="./favicon.ico" type="image/x-icon"/>
   <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon"/>
   
@@ -86,13 +86,13 @@
   <meta property="og:description" content="{% assign date_format = site.date_format | default: &quot;%B %-d, %Y&quot; %} {%- capture site_tags -%} {%- for tag in site.tags -%} {{- tag | first -}}{%- unless forloop.last -%},{%- endunless -%} {%- endfor -%} {%- endcapture -%} {%- assign tags_list = site_tags | split:',' | sort -%} {%- for tag...">
 
   
-  <meta property="og:image" content="/assets/img/avatar-icon.png">
+  <meta property="og:image" content="./assets/img/avatar-icon.png">
   
 
   
   <meta property="og:type" content="website">
-  <meta property="og:url" content="/tags/">
-  <link rel="canonical" href="/tags/">
+  <meta property="og:url" content="http://localhost:4000/tags/">
+  <link rel="canonical" href="http://localhost:4000/tags/">
   
 
   
@@ -105,7 +105,7 @@
   <meta property="twitter:description" content="{% assign date_format = site.date_format | default: &quot;%B %-d, %Y&quot; %} {%- capture site_tags -%} {%- for tag in site.tags -%} {{- tag | first -}}{%- unless forloop.last -%},{%- endunless -%} {%- endfor -%} {%- endcapture -%} {%- assign tags_list = site_tags | split:',' | sort -%} {%- for tag...">
 
   
-  <meta name="twitter:image" content="/assets/img/avatar-icon.png">
+  <meta name="twitter:image" content="./assets/img/avatar-icon.png">
   
 
   
@@ -123,7 +123,7 @@
   
 
 
-  <nav class="navbar navbar-expand-sm navbar-light fixed-top navbar-custom top-nav-regular"><a class="navbar-brand" href="">AI4VIS</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+  <nav class="navbar navbar-expand-sm navbar-light fixed-top navbar-custom top-nav-regular"><a class="navbar-brand" href="http://localhost:4000/">AI4VIS</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
@@ -148,7 +148,7 @@
   
     <div class="avatar-container">
       <div class="avatar-img-border">
-        <a href="">
+        <a href="http://localhost:4000/">
           <img alt="Navigation bar avatar" class="avatar-img" src="./assets/img/avatar-icon.png" />
         </a>
       </div>
@@ -209,10 +209,10 @@
 
 
   <footer>
-  <div class="container-md beautiful-jekyll-footer">
-    <div class="row">
-      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
-      <!-- <ul class="list-inline text-center footer-links"><li class="list-inline-item">
+    <div class="container-md beautiful-jekyll-footer">
+        <div class="row">
+            <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+                <!-- <ul class="list-inline text-center footer-links"><li class="list-inline-item">
     <a href="/feed.xml" title="RSS">
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>
@@ -230,44 +230,36 @@
    </a>
   </li></ul>
  -->
-      <!--  -->
-      <p class="copyright text-muted">
-      <!-- 
+                <!--  -->
+                <p class="copyright text-muted">
+                    <!-- 
         HKUST Vislab
         &nbsp;&bull;&nbsp;
        -->
-      
-      <span class="author-site">
+                    
+                    <span class="author-site">
         <a href="http://vis.cse.ust.hk">HKUST VisLab</a>
-      </span>
-    
-    &nbsp;&bull;&nbsp;
+      </span>  &nbsp;&bull;&nbsp; Latest Update: July 2022 
+                </p>
 
-      Latest Update: August 2021
+                
+                <p class="theme-by text-muted">
+                    Created & maintained by Liwenhan Xie
+                </p>
+                
 
-    
-      
-      </p>
-  
-      
-      <p class="theme-by text-muted">
-        Created by Liwenhan Xie
-      </p>
-      
-
-      
+                <!-- 
       <p class="theme-by text-muted">
         Maintained by Aoyu Wu
       </p>
-      
+       -->
 
-      
-      
-      </div>
+                
+
+            </div>
+        </div>
     </div>
-  </div>
 </footer>
-
 
   
   

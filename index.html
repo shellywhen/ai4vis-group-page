@@ -1,8 +1,9 @@
 ---
-layout: home
-title: AI4VIS
-subtitle: Empower data visualization with advanced AI techniques
+layout: home 
+title: AI4VIS 
+subtitle: Empower data visualization with advanced AI techniques 
 ---
+
 <div class="spacefill"></div>
 <div class="banner-container">
     <div>
@@ -13,25 +14,24 @@ subtitle: Empower data visualization with advanced AI techniques
 </div>
 <div class="wrapper">
     <div class="flex-double-row">
-    <div id="introduction">
-        <h2 class="major-title"><span>About Us</span></h2>
-        <p>
-            Following the recent development of artificial intelligence (AI) technology, there have been growing research interests and opportunities in applying AI to enhance data visualizations and enrich the way people engage with data.
-        </p>
-        <p> We, the AI4VIS research team in HKUST VisLab, are exploring AI-powered techniques for modelling, authoring, analysing, and interacting with data visualizations. In vision of formalizing visualizations as an emerging data format, we apply advanced AI techniques to visualizations. We have diverse research interests such as visualization recommendation, information extraction from visualizations and automated layouting.</p>
-    </div>
+        <div id="introduction">
+            <h2 class="major-title"><span>About Us</span></h2>
+            <p>
+                Following the recent development of artificial intelligence (AI) technology, there have been growing research interests and opportunities in applying AI to enhance data visualizations and enrich the way people engage with data.
+            </p>
+            <p> We, the AI4VIS research team in HKUST VisLab, are exploring AI-powered techniques for modelling, authoring, analysing, and interacting with data visualizations. In vision of formalizing visualizations as an emerging data format, we apply advanced
+                AI techniques to visualizations. We have diverse research interests such as visualization recommendation, information extraction from visualizations and automated layouting.</p>
+        </div>
         <div class="banner-wrapper">
-            
+
         </div>
     </div>
-    
+
 </div>
 <div id="news" class="wrapper">
     <h2 class="major-title"><span>News</span></h2>
     <div>
-        {% for news in site.data.news limit:8 %}
-        {% include news.html news=news %}
-        {% endfor %}
+        {% for news in site.data.news limit:8 %} {% include news.html news=news %} {% endfor %}
     </div>
 
 </div>
@@ -41,39 +41,43 @@ subtitle: Empower data visualization with advanced AI techniques
 
 
 
-{% assign pubyears = site.data.publication | group_by:"year" %}
-    {% for year in pubyears %}
-        {%-assign yeartitle = year.name | floor-%}
-            <h3 class="year" href="#y{{ year.name }}"><span> {{ yeartitle }} </span> </h3>
-        {% for pub in year.items %}
-        {% include publication.html pub=pub %}
-        {% endfor %}
-    {% endfor %}
+    {% assign pubyears = site.data.publication | group_by:"year" %} {% for year in pubyears %} {%-assign yeartitle = year.name | floor-%}
+    <h3 class="year" href="#y{{ year.name }}"><span> {{ yeartitle }} </span> </h3>
+    {% for pub in year.items %} {% include publication.html pub=pub %} {% endfor %} {% endfor %}
 </div>
 
-    <div id="team" class="wrapper">
-        <h2>Current Members</h2>
-      {% include profile.html term="team" class="profile-image" %}
-      <h2>Alumni</h2>
-      {% include profile.html term="alumni" class="profile-image" %}
-    </div>
+<div id="team" class="wrapper">
+    <h2>Current Members</h2>
+    {% include profile.html term="team" class="profile-image" %}
+    <h2>Alumni</h2>
+    {% include profile.html term="alumni" class="profile-image" %}
+</div>
 
- 
-    <div class="collaborators wrapper">
-        <h2 class="major-title"> <span>Collaborators</span></h2>
-        <div class="profile-container">
-        {% for people in site.data.team %}
-        {% if people.role == "collaborator" %}
-            <div class="profile-card">
+
+<div class="collaborators wrapper">
+    <h2 class="major-title"> <span>Collaborators</span></h2>
+    <div class="profile-container">
+        {% for people in site.data.team %} {% if people.role == "collaborator" %}
+        <div class="profile-card">
             <!-- <a target="_blank" href="{{ people.url }}"> -->
-            <div class="profile-collaborator"><img src="{{ people.image }}"/></div>
+            <div class="profile-collaborator"><img src="{{ people.image }}" /></div>
             <!-- <div>{{ people.name }}</div> -->
             <!-- </a> -->
         </div>
-        {% endif %}
-        {% endfor %}
+        {% endif %} {% endfor %}
     </div>
+
 
 </div>
 
-
+<div class="funding wrapper">
+    <h2 class="major-title"><span>Grants & Funding</span></h2>
+    <div>
+        {% for funding in site.data.funding %}
+        <span>"<b><a target="_blank" href="{{ funding.url }}">{{ funding.title }}</a></b>",</span>
+        <span>awarded by {{ funding.agent }} — {{ funding.scheme }}: {{ funding.id }}</span>
+        <span>
+            ({{ funding.award }}).
+        </span> {% endfor %}
+    </div>
+</div>
