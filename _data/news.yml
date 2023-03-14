@@ -1,4 +1,12 @@
 
+- message: "DMiner was accepted in IEEE TVCG! Read more about dashboard mining."
+  data: 2023-02-22
+  type: pub
+
+- message: "Notable was accepted in ACM CHI."
+  date: 2023-01-18
+  type: pub
+
 - message: "Our ongoing project was funded by the Research Grants Council with 1M HKD."
   date: 2022-07-05
   type: fund

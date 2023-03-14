@@ -1,3 +1,34 @@
+
+- id: lin2023dminer
+  title: "DMiner: Dashboard Design Mining and Recommendation"
+  authors:
+    - Yanna Lin
+    - Haotian Li
+    - Aoyu Wu
+    - Yong Wang
+    - Huamin Qu
+  venue: TVCG
+  year: 2023
+  arxiv: https://arxiv.org/abs/2209.01599
+  image: ./assets/img/project/lin2023dminer.png
+  doi: 10.1109/TVCG.2023.3251344
+
+- id: li2023notable
+  tilte: "Notable: On-the-fly Assistant for Data Storytelling in Computational Notebooks"
+  authors:
+    - Haotian Li
+    - Lu Ying
+    - Haidong Zhang
+    - Yingcai Wu
+    - Huamin Qu
+    - Yun Wang
+  venue: CHI
+  year: 2023
+  arxiv: https://arxiv.org/abs/2303.04059
+  recording: https://youtu.be/xi0PgdOn28I
+  image: ./assets/img/project/li2023notable.png
+  doi: 10.1145/3544548.3580965
+  
 - id: li2022retrieval
   title: "Structure-aware Visualization Retrieval"
   authors:
@@ -32,6 +63,21 @@
   arxiv: https://arxiv.org/abs/2204.00856
   doi: https://doi.org/10.1145/3491102.3517618
   recording: https://youtu.be/NQXaIwgHePM
+
+- id: deng2022dashbot
+  title: "DashBot: Insight-Driven Dashboard Generation Based on Deep Reinforcement Learning"
+  authors:
+    - Dazhen Deng
+    - Aoyu Wu
+    - Huamin Qu
+    - Yingcai Wu
+  venue: TVCG
+  year: 2022
+  arxiv: https://arxiv.org/abs/2208.01232
+  doi: 10.1109/TVCG.2022.3209468
+  recording: https://youtu.be/hM4XMU7pv-0
+  image: ./assets/img/project/deng2022dashbot.png
+  note: Collaborated Project
 
 - id: wu2021ai4vis
   title: "AI4VIS: Survey on Artificial Intelligence Approaches for Data Visualization"
