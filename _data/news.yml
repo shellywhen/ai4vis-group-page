@@ -1,3 +1,10 @@
+- message: "Wakey-Wakey was accepted in ACM UIST! Make your cute animated text XD"
+  date: 2023-08-03
+  type: pub
+
+- message: "InkSight was accepted in IEEE VIS! Start to document your findings with ease!"
+  date: 2023-07-21
+  type: pub
 
 - message: "DMiner was accepted in IEEE TVCG! Read more about dashboard mining."
   date: 2023-02-22
@@ -18,10 +25,6 @@
 - message: "Check our latest survey on AI4VIS (to appear in TVCG) to learn more about the emerging field!"
   date: 2021-07-20
   type: pub
-
-# - message: "Aoyu Wu visited visaulizaztion groups in Fudan University, Tongji University, and Shandong University and gave a talk on  [Games Webinar](https://www.bilibili.com/video/BV1Sg411T7fn)"
-#   type: talk
-#   date: 2021-07-15
 
 - message: "Two papers on visualization recommendation were accepted on IEEE VIS!"
   date: 2021-07-01

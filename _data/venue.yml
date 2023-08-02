@@ -1,3 +1,9 @@
+UIST:
+  full: Proceedings of the ACM Symposium on User Interface Software and Technology
+  short: UIST
+arXiv:
+  full: arXiv Preprint
+  short: arXiv
 TVCG: 
   full: IEEE Transaction on Visualization and Computer Graphics
   short: TVCG
@@ -5,8 +11,11 @@ CHI:
   full: Proceedings of the ACM SIGCHI Conference on Human Factors in Computing Systems
   short: CHI
 VIS:
-  full: Proceedings of the IEEE Visualization Conference
-  short: VIS
+  full: IEEE Transactions on Visualization and Computer Graphics
+  short: Proc. VIS
 CGA:
   full: IEEE Computer Graphics and Applications
   short: CGA
+SIGGRAPHAsia:
+  full: Proceedings of the ACM SIGGRAPH ASIA Visualization Symposium
+  short: SIGGRAPH Asia
