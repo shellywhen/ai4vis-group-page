@@ -27,6 +27,29 @@
   venue: VIS
   image: ./assets/img/project/lin2023inksight.png
   arxiv: https://arxiv.org/pdf/2307.07922.pdf
+  note: Just Accepted
+
+
+
+- id: oldvisonline
+  title: "OldVisOnline: Curating a Dataset of Historical Visualizations"
+  authors:
+    - Yu Zhang
+    - Ruike Jiang
+    - Liwenhan Xie
+    - Yuheng Zhao
+    - Can Liu
+    - Tianhong Ding
+    - Siming Chen
+    - Xiaoru Yuan
+  venue: VIS
+  year: 2023
+  code: https://github.com/oldvis
+  link: https://oldvis.github.io/introduction/what-is-the-oldvis-project.html
+  demo: https://oldvis.github.io/gallery/
+  arxiv: https://arxiv.org/abs/2308.16053
+  note: Just Accepted, Collaborated Project
+  image: ./assets/img/project/zhang2023oldvisonline.png
 
 - id: li2023why
   title: "Why is AI not a Panacea for Data Workers? An Interview Study on Human-AI Collaboration in Data Storytelling"
