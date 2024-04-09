@@ -4,12 +4,13 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    grid-row-gap: 1rem;
 }
 
 .profile-card {
     margin: 5px 1.5vw;
     text-align: center;
-    line-height: 1.4;
+    line-height: 1.2;
     a:hover {
         color: $highlight;
     }
