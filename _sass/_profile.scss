@@ -15,7 +15,7 @@
     }
     div {
         .profile-name {
-            font-size: 1.15rem;
+            font-size: 1.1rem;
             color: black;
             font-family: 'Source Sans Pro';
             &:hover {
@@ -25,6 +25,14 @@
         .profile-institute {
             color: $slight-dark-gray;
             font-size: 0.95rem;
+            font-family: 'Open Sans';
+             :hover {
+                color: $highlight;
+            }
+        }
+        .profile-title {
+            color: $slight-dark-gray;
+            font-size: 0.9rem;
             font-family: 'Open Sans';
              :hover {
                 color: $highlight;

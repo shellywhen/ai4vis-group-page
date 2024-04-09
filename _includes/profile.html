@@ -16,6 +16,9 @@
         {% if people.institute %}
         <div><span class="profile-institute">{{ people.institute }}</span>  </div>
         {% endif %}
+        {% if people.title %}
+        <div><span class="profile-title">{{ people.title }}</span>  </div>
+        {% endif %}
     </div>
     {% endif %}
     {% endfor %}

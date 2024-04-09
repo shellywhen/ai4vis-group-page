@@ -1,3 +1,80 @@
+- id: where
+  title: "Where Are We So Far? Understanding Data Storytelling Tools from the Perspective of Human-AI Collaboration"
+  authors:
+    - Haotian Li
+    - Yun Wang
+    - Huamin Qu
+  venue: CHI
+  year: 2024
+  link: https://human-ai.notion.site/eab7b7b97eeb453aacf898922264bf57?v=53c9b4815ac249318d5919a4eb7c6785
+  arxiv: https://arxiv.org/pdf/2309.15723.pdf
+  doi: 10.1145/3613904.3642726
+  tags:
+    - authoring
+    - generation
+  recording: https://youtu.be/FZWv8Imx_S0
+  image: ./assets/img/project/li2024where.png
+- id: outlinespark
+  title: "OutlineSpark: Igniting AI-powered Presentation Slides Creation from Computational Notebooks through Outlines"
+  authors:
+    - Fengjie Wang
+    - Yanna Lin
+    - Leni Yang
+    - Haotian Li
+    - Mingyang Gu
+    - Min Zhu
+    - Huamin Qu
+  venue: CHI
+  year: 2024
+  doi: 10.1145/3613904.3642865
+  arxiv: https://arxiv.org/pdf/2403.09121.pdf
+  tags:
+    - storytelling
+    - generation
+  video: https://youtu.be/bTyDdI2ll98?si=fyA2ivDYajBFLImR
+  image: ./assets/img/project/wang2024outlinespark.png
+
+- id: vaid
+  title: "VAID: Indexing View Designs in Visual Analytics System"
+  authors:
+    - Lu Ying
+    - Aoyu Wu
+    - Haotian Li
+    - Zikun Deng
+    - Ji Lan
+    - Jiang Wu
+    - Huamin Qu
+    - Dazhen Deng
+    - Yingcai Wu
+  venue: CHI
+  year: 2024
+  arxiv: https://arxiv.org/pdf/2211.02567.pdf
+  link: https://vis-vaid.github.io/
+  doi: 10.1145/3613904.3642237
+  note: Collaborated Project
+  image: ./assets/img/project/ying2024vaid.png
+
+
+- id: cocreate_slides
+  title: "Understanding Nonlinear Collaboration between Human and AI Agents: A Co-design Framework for Creative Designs"
+  authors:
+    - Jiayi Zhou
+    - Renzhong Li
+    - Junxiu Tang
+    - Tan Tang
+    - Haotian Li
+    - Weiwei Cui
+    - Yingcai Wu
+  venue: CHI
+  year: 2024
+  arxiv: https://arxiv.org/pdf/2401.07312.pdf
+  doi: 10.1145/3613904.3642812
+  tags:
+    - authoring
+    - design
+  image: ./assets/img/project/zhou2024understanding.png
+  note: Collaborated Project
+
 - id: wakey-wakey
   title: "Wakey-Wakey: Animate Text by Mimicking Characters in a GIF"
   authors:
@@ -12,8 +89,9 @@
   doi: 10.1145/3586183.3606813
   arxiv: https://arxiv.org/abs/2308.00224
   code: https://github.com/KeriYuu/Wakey-Wakey
-  video: https://youtu.be/y-pdGX8LldA
+  recording: https://youtu.be/71bf2j5oEVM
   image: ./assets/img/project/xie2023wakey.gif
+
 
 - id: lin2023inksight
   title: "InkSight: Leveraging Sketch Interaction for Documenting Chart Findings in Computational Notebooks"
@@ -27,7 +105,8 @@
   venue: VIS
   image: ./assets/img/project/lin2023inksight.png
   arxiv: https://arxiv.org/pdf/2307.07922.pdf
-  note: Just Accepted
+  doi: 10.1109/TVCG.2023.3327170
+  recording: https://youtu.be/9aUrbFWiaTk?si=7BZYNPvHuFS35VGL
 
 
 
@@ -45,11 +124,26 @@
   venue: VIS
   year: 2023
   code: https://github.com/oldvis
-  link: https://oldvis.github.io/introduction/what-is-the-oldvis-project.html
-  demo: https://oldvis.github.io/gallery/
+  link: https://oldvis.github.io/gallery
   arxiv: https://arxiv.org/abs/2308.16053
-  note: Just Accepted, Collaborated Project
+  note: Collaborated Project
+  doi: 10.1109/TVCG.2023.3326908
   image: ./assets/img/project/zhang2023oldvisonline.png
+  recording: https://youtu.be/ZyKijYzleR4?si=ioK4_8keH_ngOO_D
+
+- id: adavis
+  title: "AdaVis: Adaptive and Explainable Visualization Recommendation for Tabular Data"
+  authors:
+    - Songheng Zhang
+    - Haotian Li
+    - Huamin Qu
+    - Yong Wang
+  venue: TVCG
+  year: 2023
+  doi: 10.1109/TVCG.2023.3316469
+  arxiv: https://arxiv.org/pdf/2310.11742.pdf
+  image: ./assets/img/project/zhang2023adavis.png
+  note: Collaborated Project
 
 - id: li2023why
   title: "Why is AI not a Panacea for Data Workers? An Interview Study on Human-AI Collaboration in Data Storytelling"
@@ -76,6 +170,7 @@
   arxiv: https://arxiv.org/abs/2209.01599
   image: ./assets/img/project/lin2023dminer.png
   doi: 10.1109/TVCG.2023.3251344
+  recording: https://youtu.be/H-7CWuvNU7M?si=KVQ3Z77GMLoeww7J
 
 - id: li2023notable
   title: "Notable: On-the-fly Assistant for Data Storytelling in Computational Notebooks"
