@@ -1,4 +1,4 @@
-- id: where
+- id: li2024where
   title: "Where Are We So Far? Understanding Data Storytelling Tools from the Perspective of Human-AI Collaboration"
   authors:
     - Haotian Li
@@ -9,12 +9,11 @@
   link: https://human-ai.notion.site/eab7b7b97eeb453aacf898922264bf57?v=53c9b4815ac249318d5919a4eb7c6785
   arxiv: https://arxiv.org/pdf/2309.15723.pdf
   doi: 10.1145/3613904.3642726
-  tags:
-    - authoring
-    - generation
+  awards:
+    - Best Paper Honorable Mention
   recording: https://youtu.be/FZWv8Imx_S0
   image: ./assets/img/project/li2024where.png
-- id: outlinespark
+- id: wang2024outlinespark
   title: "OutlineSpark: Igniting AI-powered Presentation Slides Creation from Computational Notebooks through Outlines"
   authors:
     - Fengjie Wang
@@ -28,13 +27,10 @@
   year: 2024
   doi: 10.1145/3613904.3642865
   arxiv: https://arxiv.org/pdf/2403.09121.pdf
-  tags:
-    - storytelling
-    - generation
   video: https://youtu.be/bTyDdI2ll98?si=fyA2ivDYajBFLImR
   image: ./assets/img/project/wang2024outlinespark.png
 
-- id: vaid
+- id: ying2024vaid
   title: "VAID: Indexing View Designs in Visual Analytics System"
   authors:
     - Lu Ying
@@ -55,7 +51,7 @@
   image: ./assets/img/project/ying2024vaid.png
 
 
-- id: cocreate_slides
+- id: zhou2024cocreate_slides
   title: "Understanding Nonlinear Collaboration between Human and AI Agents: A Co-design Framework for Creative Designs"
   authors:
     - Jiayi Zhou
@@ -75,7 +71,7 @@
   image: ./assets/img/project/zhou2024understanding.png
   note: Collaborated Project
 
-- id: wakey-wakey
+- id: xie2023wakey-wakey
   title: "Wakey-Wakey: Animate Text by Mimicking Characters in a GIF"
   authors:
     - Liwenhan Xie
