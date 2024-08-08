@@ -1,3 +1,24 @@
+- id: waitgpt
+  title: "WaitGPT: Monitoring and Steering Conversational LLM Agent in Data Analysis with On-the-Fly Code Visualization"
+  authors:
+    - Liwenhan Xie
+    - Chengbo Zheng
+    - Haijun Xia
+    - Huamin Qu
+    - Chen Zhu-Tian
+  venue: UIST
+  year: 2024
+  venue_location: Pittsburgh, USA
+  doi: 10.1145/3654777.3676374
+  type:
+    - Conference
+  highlight: 3
+  arXiv: 2408.01703
+  video: https://youtu.be/nJjRWp1NsPo
+  recording: https://youtu.be/5qqSuqoFNkc?si=_u0pD8WtFCYwrQ6J
+  link: ../projects/WaitGPT
+  image: ./assets/img/project/xie2024waitgpt.gif
+
 - id: where
   title: "Where Are We So Far? Understanding Data Storytelling Tools from the Perspective of Human-AI Collaboration"
   authors:
@@ -14,6 +35,7 @@
     - generation
   recording: https://youtu.be/FZWv8Imx_S0
   image: ./assets/img/project/li2024where.png
+
 - id: outlinespark
   title: "OutlineSpark: Igniting AI-powered Presentation Slides Creation from Computational Notebooks through Outlines"
   authors:
@@ -28,9 +50,6 @@
   year: 2024
   doi: 10.1145/3613904.3642865
   arxiv: https://arxiv.org/pdf/2403.09121.pdf
-  tags:
-    - storytelling
-    - generation
   video: https://youtu.be/bTyDdI2ll98?si=fyA2ivDYajBFLImR
   image: ./assets/img/project/wang2024outlinespark.png
 
