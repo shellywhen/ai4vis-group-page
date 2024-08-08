@@ -8,16 +8,69 @@
     - Chen Zhu-Tian
   venue: UIST
   year: 2024
-  venue_location: Pittsburgh, USA
   doi: 10.1145/3654777.3676374
-  type:
-    - Conference
-  highlight: 3
-  arXiv: 2408.01703
+  arxiv: https://arxiv.org/abs/2408.01703
   video: https://youtu.be/nJjRWp1NsPo
   recording: https://youtu.be/5qqSuqoFNkc?si=_u0pD8WtFCYwrQ6J
   link: ../projects/WaitGPT
   image: ./assets/img/project/xie2024waitgpt.gif
+
+
+- id: lo2024howgood
+  title: "How Good (Or Bad) Are LLMs at Detecting Misleading Visualizations?"
+  authors:
+    - Leo Yu-Ho Lo
+    - Huamin Qu
+  arxiv: https://arxiv.org/abs/2407.17291
+  year: 2024
+  venue: VIS
+  image: ./assets/img/project/lo2024howgood.png
+
+- id: yu2024pygwalker
+  title: "PyGWalker: On-the-fly Assistant for Exploratory Visual Data Analysis"
+  authors:
+    - Yue Yu
+    - Leixian Shen
+    - Fei Long
+    - Huamin Qu
+    - Hao Chen
+  venue: Vis
+  year: 2024
+  note: Short Paper
+  arxiv: https://arxiv.org/abs/2406.11637
+  code: https://github.com/Kanaries/pygwalker
+  image: ./assets/img/project/yu2024pygwalker.gif
+
+  
+- id: shen2024datadirector
+  title: "From Data to Story: Towards Automatic Animated Data Video Creation with LLM-based Multi-Agent Systems"
+  authors:
+    - Leixian Shen
+    - Haotian Li
+    - Yun Wang
+    - Huamin Qu
+  venue: Companion Workshop in IEEE VIS Conference on Data Storytelling in an Era of Generative AI (Gen4DS)
+  year: 2024
+  arxiv: https://arxiv.org/abs/2408.03876
+  image: ./assets/img/project/shen2024datadirector.png
+
+- id: ying2024reviving
+  title: "Reviving Static Charts into Live Charts"
+  authors:
+    - Lu Ying
+    - Yun Wang
+    - Haotian Li
+    - Shuguang Dou
+    - Haidong Zhang
+    - Xinyang Jiang
+    - Huamin Qu
+    - Yingcai Wu
+  venue: TVCG
+  year: 2024
+  arxiv: https://arxiv.org/abs/2309.02967
+  doi: 10.1109/TVCG.2024.3397004
+  image: ./assets/img/project/ying2024livechart.png
+  note: Collaborated Project
 
 - id: where
   title: "Where Are We So Far? Understanding Data Storytelling Tools from the Perspective of Human-AI Collaboration"
@@ -28,11 +81,10 @@
   venue: CHI
   year: 2024
   link: https://human-ai.notion.site/eab7b7b97eeb453aacf898922264bf57?v=53c9b4815ac249318d5919a4eb7c6785
-  arxiv: https://arxiv.org/pdf/2309.15723.pdf
+  arxiv: https://arxiv.org/abs/2309.15723
   doi: 10.1145/3613904.3642726
-  tags:
-    - authoring
-    - generation
+  awards:
+    - Best Paper Honorable Mention
   recording: https://youtu.be/FZWv8Imx_S0
   image: ./assets/img/project/li2024where.png
 
@@ -88,9 +140,6 @@
   year: 2024
   arxiv: https://arxiv.org/pdf/2401.07312.pdf
   doi: 10.1145/3613904.3642812
-  tags:
-    - authoring
-    - design
   image: ./assets/img/project/zhou2024understanding.png
   note: Collaborated Project
 

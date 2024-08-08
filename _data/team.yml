@@ -28,13 +28,6 @@
   image: ./assets/img/person/team/linping.png
   role: team
   title: PhD Candidate
-
-- name: Haotian Li
-  url: https://haotian-li.com/
-  img: https://haotian-li.com/photo_2.jpg
-  image: ./assets/img/person/team/haotian.jpg
-  role: team
-  title: PhD Candidate
  
 
 - name: Yanna Lin
@@ -73,6 +66,14 @@
   role: team
   title: MPhil Student
 
+- name: Haotian Li
+  url: https://haotian-li.com/
+  img: https://haotian-li.com/photo_2.jpg
+  image: ./assets/img/person/team/haotian.jpg
+  role: alumni
+  institute: MSRA
+  title: Researcher
+
 - name: Wai Tong
   url: http://home.cse.ust.hk/~wtong/
   img: http://home.cse.ust.hk/~wtong/img/IMG_20180808_124343.jpg
@@ -108,7 +109,7 @@
   institute: UMN
   title: AP
 
-- name: Zhutian Chen
+- name: Chen Zhu-Tian
   url: https://chenzhutian.org/
   image: ./assets/img/person/alumni/zhutian.png
   role: alumni

@@ -5,7 +5,7 @@
         <img src="{{ pub.image  }}" />
     </div>
     <div class="publication-content">
-        <h3 id="{{ anchor }}">{% for award in pub.awards %}<i class="award-icon fas fa-{% if award == " Best Paper Award " %}trophy{% else %}award{% endif %} award-icon" title="{{ award }}"></i> {% endfor %}{{ pub.title }}</h3>
+        <h3 id="{{ anchor }}">{% for award in pub.awards %}<i class="award-icon fas fa-{% if award == "Best Paper Award" %}trophy{% elsif award=== "Best Paper Honorable Mention Award" %}award{% else %}certificate{% endif %} award-icon" title="{{ award }}"></i> {% endfor %}{{ pub.title }}</h3>
         <div class="authors">{% for author in pub.authors %}{%- include person.html person=author -%}{%-unless forloop.last-%}, {% endunless %}{% endfor %}</div>
         {% if pub.venue %}
         <div class="venue">
@@ -20,9 +20,10 @@
               {{ venue.prefix }}
               {% endif %}
               {{ venue.full }} ({{venue.short}}).
+              
           </span>
         </a> {% else %}
-            <span class="venue"> {{ pub.venue }} </span> {% endif %} {% if pub.venue_location %} in {{ pub.venue_location }} {% endif %} {% if pub.venue_url %}</a>{% endif %} {{ pub.year }}. {% if pub.type[0] == "Poster" %}<span class="poster_note">({{pub.type[0]}})</span>{%-
+            <span class="venue"> {{ pub.venue }}. </span> {% endif %} {% if pub.venue_location %} in {{ pub.venue_location }} {% endif %} {% if pub.venue_url %}</a>{% endif %} {{ pub.year }}. {% if pub.type[0] == "Poster" %}<span class="poster_note">({{pub.type[0]}})</span>{%-
             endif -%} {% if pub.type[0] == "Notes" %}<span class="poster_note">({{pub.type[0]}})</span>{%- endif -%} {% if pub.note %}<span class="ac_note"> — <i>{{pub.note}}</i></span>{%- endif -%}
         </div>
         {% endif %} {% if pub.description %}

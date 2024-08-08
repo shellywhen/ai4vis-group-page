@@ -16,6 +16,9 @@ VIS:
 CGA:
   full: IEEE Computer Graphics and Applications
   short: CGA
+Vis:
+  full: Proceedings of the IEEE Visualization Conference
+  short: Proc. Vis
 SIGGRAPHAsia:
   full: Proceedings of the ACM SIGGRAPH ASIA Visualization Symposium
   short: SIGGRAPH Asia

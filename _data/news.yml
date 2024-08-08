@@ -1,3 +1,15 @@
+- message: "WaitGPT was accepted in ACM UIST!"
+  date: 2024-08-01
+  type: pub
+
+- message: "One paper was accepted in IEEE VIS! Check out to learn how good are VLM in detecting misleading vis?"
+  date: 2024-07-20
+  type: pub
+
+- message: "Congrats to Haotian for winning the Honorable Mention Award at ACM CHI 2024!"
+  date: 2024-04-26
+  type: pub
+
 - message: "Check out on our 4 accepted papers for CHI'2024 :-D"
   date: 2024-01-18
   type: pub
